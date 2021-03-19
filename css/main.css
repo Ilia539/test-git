@@ -23,7 +23,11 @@ body {
 }
 .input-color {
   margin-right: 25px;
-  outline: none;
+    outline: none;
+    height: 30px;
+    padding: 0;
+    background: transparent;
+    border: none;
 }
 .btn-color {
   padding: 10px 25px;
@@ -35,6 +39,7 @@ body {
   color: antiquewhite;
   cursor: pointer;
   border-radius: 5px;
+  outline: none;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -44,4 +49,10 @@ body {
   -moz-transition: all .3s ease-out;
   -ms-transition: all .3s ease-out;
   -o-transition: all .3s ease-out;
+}
+.btn-color:hover {
+  border: 2px solid tomato;
+  background: orangered;
+  text-shadow: 2px 2px 6px gray;
+
 }
